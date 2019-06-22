@@ -1,0 +1,13 @@
+version: 1
+
+dn: dc=pmi,dc=com
+objectClass: extensibleObject
+objectClass: domain
+objectClass: top
+administrativeRole: accessControlSpecificArea
+dc: pmi
+
+dn: ou=students,dc=pmi,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: students
